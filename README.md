@@ -64,12 +64,12 @@ Some advantages of DISL are:
 
 ## Quick start guide
 Requirements:
-- Python 3.x (tested with 3.11.4)
-- Xilinx 7 series FPGA board with a FT2232H based programmer (Cmod A735t and Arty A735t supported out of box)
+- Python 3.x
+- Xilinx 7 series FPGA board with a FT2232H chip (Cmod A735t and Arty A735t supported out of box)
 - Python libraries given in ```requirements.txt```
 
 Additional requirements if the precompiled binaries are not used:
-- Vivado (tested with 2020.1)
+- Vivado
 
 To generate, compile and deploy the hardware for an edgetestbed example system, run the following command from this directory 
 ```console
@@ -90,6 +90,10 @@ make
 python test.py
 ```
 <br/>
+
+
+Tested with:
+- Fedora 37, Python 3.11, Vivado 2020.1
 
 
 
