@@ -67,6 +67,7 @@ Requirements:
 - Python 3.x
 - Xilinx 7 series FPGA board with a FT2232H chip (Cmod A735t and Arty A735t supported out of box)
 - Python libraries given in ```requirements.txt```
+- riscv64-linux-gnu toolchain
 
 Additional requirements if the precompiled binaries are not used:
 - Vivado
